@@ -1,0 +1,41 @@
+// Place all the styles related to the actions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  text-align: center;
+  background-color: #6DBD86;
+}
+
+h1 {
+  margin-top: 40px;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #323339;
+  font-size: 80px;
+}
+.array-style {
+  font-family: "Lucida Console", Monaco, monospace;
+  display: flex;
+  justify-content: space-around;
+  color: #6DBD86;
+  font-size: 50px;
+  max-width: 80%;
+  max-height: 30%;
+  margin: auto;
+}
+
+.letter-style {
+  background-color: #323339;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  transition: background 0.5s cubic-bezier(0.26, 0.03, 0.25, 1),
+}
+
+.letter-style:hover {
+  background-color: #EE6B6A;
+  width: 70px;
+  height: 70px;
+}
